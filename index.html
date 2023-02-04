@@ -9,7 +9,7 @@
   <body>
 
     <div id="top">
-      <h1>Kids Calendar</h1>
+      <h1 id="mainHeading">Kids Calendar</h1>
 
       <p id="currDate"></p>
   
@@ -364,6 +364,7 @@
 
       const d = n.getDate();
       document.getElementById("currDate").innerHTML = `<strong>Today's date</strong>: ${d}/${m}/${y}`;
+      document.getElementById("mainHeading").innerHTML = `Kids Calander 2021-${y}`;
       const currMonth = `${y}${m}`
 
       const gotoLink = document.getElementById("goto").href=`#${currMonth}`
