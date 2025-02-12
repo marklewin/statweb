@@ -18,6 +18,10 @@ h2 {
   color: inherit;
 }
 
+ul#archive li {
+  display: inline;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
